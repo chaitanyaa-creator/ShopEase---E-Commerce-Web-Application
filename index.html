@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+        <h1>ShopEase</h1>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Products..."
+        >
+
+        <div id="cart">
+            <a href="cart.html">
+                Cart (<span id="cartCount">0</span>)
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <h2>Welcome To ShopEase</h2>
+
+        <p>
+            Discover the latest fashion, electronics,
+            jewelry and more at affordable prices.
+        </p>
+
+        <button>Shop Now</button>
+    </section>
+
+    <!-- About -->
+
+    <section class="about">
+        <h2>Why Choose ShopEase?</h2>
+
+        <p>
+            ShopEase provides a seamless online shopping
+            experience with secure cart management,
+            dynamic product browsing, and responsive design.
+        </p>
+    </section>
+
+    <!-- Category Filters -->
+
+    <section class="filters">
+
+        <button onclick="filterProducts('all')">
+            All
+        </button>
+
+        <button onclick="filterProducts(`men's clothing`)">
+            Men's Clothing
+        </button>
+
+        <button onclick="filterProducts(`women's clothing`)">
+            Women's Clothing
+        </button>
+
+        <button onclick="filterProducts('jewelery')">
+            Jewelry
+        </button>
+
+        <button onclick="filterProducts('electronics')">
+            Electronics
+        </button>
+
+    </section>
+
+    <!-- Products -->
+
+    <main>
+
+        <h2 class="section-title">
+            Our Products
+        </h2>
+
+        <div id="productsContainer"></div>
+
+    </main>
+
+    <!-- Toast -->
+
+    <div id="toast">
+        Product Added To Cart
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>ShopEase</h3>
+
+        <p>
+            Your trusted destination for quality products.
+        </p>
+
+        <p>
+            Email: support@shopease.com
+        </p>
+
+        <p>
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
