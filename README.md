@@ -1,8 +1,8 @@
-# 🛒 ShopEase - E-Commerce Web Application
+# 🛍️ Fashion Hub - E-Commerce Web Application
 
 ## 📌 Overview
 
-ShopEase is a responsive E-Commerce web application developed using HTML, CSS, and JavaScript. The application allows users to browse products, search for specific items, filter products by category, add products to a shopping cart, and manage cart items efficiently. Product data is dynamically fetched using a REST API, providing a realistic online shopping experience.
+Fashion Hub is a responsive E-Commerce web application developed using HTML, CSS, and JavaScript. The application allows users to browse products, search for specific items, filter products by category, add products to a shopping cart, and manage cart items efficiently. Product data is dynamically fetched using a REST API, providing a realistic online shopping experience.
 
 ---
 
@@ -45,7 +45,7 @@ ShopEase is a responsive E-Commerce web application developed using HTML, CSS, a
 ## 📂 Project Structure
 
 ```text
-ShopEase/
+FashionHub/
 │
 ├── index.html
 ├── cart.html
@@ -95,8 +95,7 @@ ShopEase/
 ## 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
-
-* REST API integration
+* HTML5,CSS3,Javascript
 * Asynchronous JavaScript (Async/Await)
 * DOM Manipulation
 * Event Handling
@@ -104,17 +103,6 @@ Through this project, I gained practical experience in:
 * Responsive Web Design
 * JavaScript Array Methods (filter, find, forEach)
 * Version Control with Git and GitHub
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Page
-* Product Listing
-* Category Filtering
-* Shopping Cart Page
 
 ---
 
@@ -132,5 +120,6 @@ Add screenshots of:
 
 ## 👨‍💻 Author
 
-Chaitanya
+**Chaitanya**
+
 
